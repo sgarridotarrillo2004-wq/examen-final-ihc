@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Point - Hamburguesas Artesanales</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts para Tipografía Legible y Atractiva -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">BURGER<span>POINT</span></a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#inicio">Inicio</a>
+                <a href="#menu">Menú</a>
+                <a href="#promos">Promociones</a>
+                <a href="#corporativos">Eventos</a>
+                <a href="#ubicacion">Contacto</a>
+            </nav>
+            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20hacer%20un%20pedido" target="_blank" class="btn-cta">¡Pedir Ahora!</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="inicio" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>Sabor Artesanal en Cada Mordisco</h1>
+                    <p>Hamburguesas preparadas al momento con carne 100% premium, ingredientes frescos de la huerta y nuestras salsas secretas de la casa.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn-primary">Ver Menú</a>
+                        <a href="#promos" class="btn-secondary">Ver Promociones</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Imagen optimizada con atributo ALT semántico -->
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" alt="Hamburguesa clásica artesanal Burger Point con queso derretido y vegetales frescos">
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN MENÚ (HU01) -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2 class="section-title">Nuestras Hamburguesas</h2>
+                <p class="section-subtitle">Preparadas artesanalmente con amor y los mejores insumos.</p>
+                
+                <div class="grid-cards">
+                    <!-- Producto 1 -->
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=400&q=80" alt="Hamburguesa Cheeseburger Clásica">
+                        <div class="card-body">
+                            <h3>Classic Cheese</h3>
+                            <p>Carne de res de 150g, doble queso cheddar fundido, lechuga orgánica, tomate y nuestra salsa secreta.</p>
+                            <span class="price">S/ 21.90</span>
+                            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20pedir%20la%20Classic%20Cheese" target="_blank" class="btn-card">Pedir por WhatsApp</a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 2 -->
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=400&q=80" alt="Hamburguesa BBQ Bacon Monster">
+                        <div class="card-body">
+                            <h3>BBQ Bacon Monster</h3>
+                            <p>Carne de res de 150g, tocino ahumado crujiente, aros de cebolla, queso cheddar y salsa BBQ artesanal.</p>
+                            <span class="price">S/ 25.90</span>
+                            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20pedir%20la%20BBQ%20Bacon%20Monster" target="_blank" class="btn-card">Pedir por WhatsApp</a>
+                        </div>
+                    </article>
+
+                    <!-- Producto 3 -->
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1525059696034-4967a8e1dca2?auto=format&fit=crop&w=400&q=80" alt="Hamburguesa Crispy Chicken">
+                        <div class="card-body">
+                            <h3>Crispy Chicken</h3>
+                            <p>Pechuga de pollo súper crujiente, ensalada col, mayonesa ahumada y pepinillos seleccionados.</p>
+                            <span class="price">S/ 19.90</span>
+                            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20pedir%20la%20Crispy%20Chicken" target="_blank" class="btn-card">Pedir por WhatsApp</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PROMOCIONES / COMBOS GRUPALES (HU02) -->
+        <section id="promos" class="promos-section">
+            <div class="container">
+                <h2 class="section-title">Combos para Compartir</h2>
+                <p class="section-subtitle">Las mejores combinaciones para disfrutar con tu grupo favorito.</p>
+                
+                <div class="grid-cards">
+                    <!-- Promo 1 -->
+                    <article class="card promo-card">
+                        <div class="badge">Ahorra 20%</div>
+                        <img src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=400&q=80" alt="Combo Amigos de Burger Point">
+                        <div class="card-body">
+                            <h3>Combo Amigos (Para 2)</h3>
+                            <p>2 Classic Cheese + 1 Porción Grande de Papas Nativas + 2 Bebidas heladas de tu elección.</p>
+                            <div class="prices">
+                                <span class="old-price">S/ 52.00</span>
+                                <span class="price">S/ 41.90</span>
+                            </div>
+                            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20el%20Combo%20Amigos" target="_blank" class="btn-card">Ordenar Combo</a>
+                        </div>
+                    </article>
+
+                    <!-- Promo 2 -->
+                    <article class="card promo-card">
+                        <div class="badge">Ahorra 25%</div>
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?auto=format&fit=crop&w=400&q=80" alt="Combo Familiar de Burger Point">
+                        <div class="card-body">
+                            <h3>Mega Familiar (Para 4)</h3>
+                            <p>4 Hamburguesas a elección + 2 Porciones de Papas + 1 Porción de Nuggets (x10) + Gaseosa 1.5L.</p>
+                            <div class="prices">
+                                <span class="old-price">S/ 110.00</span>
+                                <span class="price">S/ 79.90</span>
+                            </div>
+                            <a href="https://wa.me/51999999999?text=Hola,%20quiero%20el%20Combo%20Familiar" target="_blank" class="btn-card">Ordenar Combo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN TESTIMONIOS Y NUEVOS CLIENTES (HU04) -->
+        <section class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">La Opinión de Nuestros Clientes</h2>
+                <div class="grid-testimonials">
+                    <div class="testimonial-card">
+                        <p class="stars">★★★★★</p>
+                        <p class="comment">"La carne es súper jugosa y el pan artesanal tiene una textura espectacular. ¡Mi nueva hamburguesería favorita en la ciudad!"</p>
+                        <span class="author">- Carlos Mendoza</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="stars">★★★★★</p>
+                        <p class="comment">"Pedimos el Combo Familiar por WhatsApp y llegó súper rápido y calientito. Excelente atención al cliente."</p>
+                        <span class="author">- Familia Rojas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN EVENTOS CORPORATIVOS (HU03) -->
+        <section id="corporativos" class="contact-section">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2>¿Tienes un Evento o Reunión Corporativa?</h2>
+                    <p>Llevamos el mejor sabor de Burger Point a tus celebraciones corporativas, cumpleaños o eventos especiales. Diseñamos menús personalizados y tarifas con descuentos especiales por volumen.</p>
+                    <div class="info-block">
+                        <strong>Horario de Atención:</strong>
+                        <p>Lunes a Domingo: 12:00 PM - 11:00 PM</p>
+                    </div>
+                    <div class="info-block">
+                        <strong>Canal de Consultas directas:</strong>
+                        <p>eventos@burgerpoint.com | +51 999 999 999</p>
+                    </div>
+                </div>
+                
+                <!-- Formulario de Cotización -->
+                <div class="contact-form">
+                    <h3>Solicitar Cotización</h3>
+                    <form id="corpForm" onsubmit="validarFormulario(event)">
+                        <div class="form-group">
+                            <label for="nombre">Nombre de la Empresa / Contacto</label>
+                            <input type="text" id="nombre" required placeholder="Ej. Empresa SAC / Juan Pérez">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" required placeholder="correo@empresa.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="personas">Cantidad de personas</label>
+                            <input type="number" id="personas" min="10" required placeholder="Mínimo 10 personas">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje / Requerimientos especiales</label>
+                            <textarea id="mensaje" rows="4" placeholder="Cuéntanos más sobre tu evento corporativo..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary btn-block">Enviar Solicitud</button>
+                    </form>
+                    <div id="formFeedback" class="form-feedback hidden"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- UBICACIÓN (HU04) -->
+        <section id="ubicacion" class="map-section">
+            <div class="container">
+                <h2 class="section-title">¡Visítanos!</h2>
+                <p class="section-subtitle">Av. Principal 123, Miraflores, Lima (Frente al Parque Kennedy)</p>
+                <div class="map-placeholder">
+                    <!-- Mapa Simulador de Ubicación con Contraste y Accesibilidad -->
+                    <div class="map-box">
+                        <p>📍 Burger Point Central - Lima</p>
+                        <span>Zona de Reparto Express disponible para distritos aledaños.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA (FOOTER) -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">BURGER<span>POINT</span></a>
+                <p>Pasión por las hamburguesas de verdad.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Enlaces</h4>
+                <a href="#menu">Nuestro Menú</a>
+                <a href="#promos">Promociones</a>
+                <a href="#corporativos">Eventos</a>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <p>@BurgerPointOficial</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Burger Point. Todos los derechos reservados. Proyecto Académico EB1-1ASI0385.</p>
+        </div>
+    </footer>
+
+    <!-- Script Inline de Validación en JavaScript Puro (No Frameworks) -->
+    <script>
+        function validarFormulario(event) {
+            event.preventDefault();
+            const nombre = document.getElementById('nombre').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const personas = document.getElementById('personas').value;
+            const feedback = document.getElementById('formFeedback');
+
+            if (nombre === "" || email === "" || personas === "") {
+                feedback.className = "form-feedback error";
+                feedback.textContent = "Por favor, completa todos los campos obligatorios.";
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            if (personas < 10) {
+                feedback.className = "form-feedback error";
+                feedback.textContent = "El pedido mínimo para eventos es de 10 personas.";
+                feedback.classList.remove('hidden');
+                return;
+            }
+
+            // Simulación de envío exitoso
+            feedback.className = "form-feedback success";
+            feedback.textContent = `¡Gracias, ${nombre}! Hemos recibido tu solicitud para ${personas} personas. Te contactaremos al correo ${email} en menos de 24 horas.`;
+            feedback.classList.remove('hidden');
+            document.getElementById('corpForm').reset();
+        }
+    </script>
+</body>
+</html>
